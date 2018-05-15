@@ -1,0 +1,36 @@
+{
+  "public": {
+    "reCaptcha": {
+        "siteKey": "yourGoogleRecaptchaSiteKey"
+    },
+    "applicationName": "Vix SimpleUI React",
+    "email": "you@yourdomain.com",
+    "GreenID": {
+      "name": "yourVixGreenidUsername",
+      "password": "yourVixGreenid"
+    }
+  },
+  "private": {
+    "reCaptcha": {
+        "secretKey": "your-google-recaptcha-secretKey"
+    },
+    "MAIL_URL": "smtp://username:password@smtp.yourSMTP-provider:portNumber",
+    "OAuth": {
+      "facebook": {
+        "appId": "",
+        "secret": "",
+        "loginStyle": "popup"
+      },
+      "google": {
+        "clientId": "",
+        "secret": "",
+        "loginStyle": "popup"
+      },
+      "github": {
+        "clientId": "",
+        "secret": "",
+        "loginStyle": "popup"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import '../../stylesheets/colors';
+@import 'react-spinner';
+// @import '{}/node_modules/react-spinner/react-spinner.css'; // {} is supposed to work from Meteor 1.3 on. Maybe the same fourseven bug we saw at Saatchi.
+@import url("https://simpleui-au.vixverify.com/df/assets/stylesheets/greenid.css");
+@import url("https://simpleui-au.vixverify.com/df/assets/stylesheets/uploadifive.css");
+
+.OAuthProfile {
+  .LoggedInWith {
+    padding: 20px;
+    border-radius: 3px;
+    color: #fff;
+    border: 1px solid $gray-lighter;
+    text-align: center;
+
+    img {
+      width: 100px;
+    }
+
+    &.github img {
+      width: 125px;
+    }
+
+    p {
+      margin: 20px 0 0 0;
+      color: $gray-light;
+    }
+
+    .btn {
+      margin-top: 20px;
+
+      &.btn-facebook {
+        background: $facebook;
+        border-color: $facebook;
+        color: #fff;
+      }
+
+      &.btn-google {
+        background: $google;
+        border-color: $google;
+        color: #fff;
+      }
+
+      &.btn-github {
+        background: $github;
+        border-color: $github;
+        color: #fff;
+      }
+    }
+  }
+}
+
+// GreenID SimpleUI overrides. See imported urls, above, for hundreds of overridable IDs
+
+#greenid-container {
+  color: #009ca5;
+}
+
+// react-spinner overrides
+
+.react-spinner_bar {
+  background-color: $eva-torquoise;
+}
+

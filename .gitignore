@@ -1,0 +1,9 @@
+node_modules
+settings-demo.json
+settings-development.json
+settings-staging.json
+settings-production.json
+.deploy/settings.json
+.meteor/local/
+/package-lock.json
+package-lock.json

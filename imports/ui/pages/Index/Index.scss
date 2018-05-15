@@ -1,0 +1,75 @@
+@import '../../stylesheets/mixins';
+@import '../../stylesheets/colors';
+
+.Index {
+  padding: 20px;
+  background: $eva-back; // $cb-blue;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+    color: darken($eva-torquoise, 0%); // lighten($cb-blue, 21%);
+  }
+
+  > div {
+    display: inline-block;
+    margin: 10px 0 0;
+
+    .btn:first-child {
+      margin-right: 10px;
+    }
+
+    .btn {
+      border: none;
+    }
+  }
+
+  footer {
+    margin: 20px -20px -20px;
+    border-top: 1px solid $eva-torquoise; // darken($cb-blue, 10%);
+    padding: 20px;
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      color: darken($eva-torquoise, 0%); // lighten($cb-blue, 21%);
+      margin: 0;
+    }
+
+    p a {
+      color: lighten($eva-torquoise, 13%); // lighten($cb-blue, 13%);
+      text-decoration: underline;
+    }
+  }
+}
+
+@include breakpoint(tablet) {
+  .Index {
+    padding: 30px;
+
+    footer {
+      margin: 30px -30px -30px;
+    }
+  }
+}
+
+@include breakpoint(desktop) {
+  .Index {
+    padding: 40px;
+
+    footer {
+      margin: 40px -40px -40px;
+    }
+  }
+}

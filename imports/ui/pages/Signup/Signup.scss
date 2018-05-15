@@ -1,0 +1,24 @@
+.rc-container {
+  margin-bottom: 1rem;
+  min-height: 80px;
+}
+
+.custom-checkbox .custom-control-indicator {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #2c2b2c;
+}
+
+.custom-control-description {
+  color: #2c2b2c;
+  text-transform: uppercase;
+  line-height: 2.7;
+  font-size: 12px;
+}
+
+/* When I remove background the icon goes back to that default size */
+.custom-control-input:checked~.custom-control-indicator {
+  background-color: red!important;
+}

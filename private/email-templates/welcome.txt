@@ -1,0 +1,12 @@
+Hey, {{firstName}}
+
+Welcome to {{applicationName}}. We're excited to have you on board.
+
+Your temporary password is {{tempPassword}}. Log in and change it as soon as possible.
+
+Ready to get started?
+
+[Add your details]({{welcomeUrl}})
+
+Cheers,
+{{applicationName}} Team
